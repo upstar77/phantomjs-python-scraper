@@ -1,0 +1,27 @@
+[INFO  - 2018-01-25T08:12:53.400Z] GhostDriver - Main - running on port 61734
+[INFO  - 2018-01-25T08:12:53.544Z] Session [8ad7e110-01a7-11e8-aadf-470963ada348] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12","webSecurityEnabled":true}
+[INFO  - 2018-01-25T08:12:53.544Z] Session [8ad7e110-01a7-11e8-aadf-470963ada348] - page.customHeaders:  - {}
+[INFO  - 2018-01-25T08:12:53.544Z] Session [8ad7e110-01a7-11e8-aadf-470963ada348] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12 (KHTML, like Gecko) Version/8.0.7 Safari/600.7.12"}
+[INFO  - 2018-01-25T08:12:53.544Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8ad7e110-01a7-11e8-aadf-470963ada348
+[ERROR - 2018-01-25T08:13:05.107Z] Session [8ad7e110-01a7-11e8-aadf-470963ada348] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'P.startsWith("https")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-25T08:13:05.107Z] Session [8ad7e110-01a7-11e8-aadf-470963ada348] - page.onError - stack:
+  (anonymous function) (https://gum.criteo.com/syncframe#{"uid":null,"idfs":null,"optout":false,"sid":null,"lwid":"8ed75496-aeff-4c0b-a05b-db3924af7069","tld":"superperfumerias.com","origin":"onetag","version":"4_5_5"}:20)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-25T08:13:15.496Z] Session [8ad7e110-01a7-11e8-aadf-470963ada348] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'P.startsWith("https")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-25T08:13:15.496Z] Session [8ad7e110-01a7-11e8-aadf-470963ada348] - page.onError - stack:
+  (anonymous function) (https://gum.criteo.com/syncframe#{"uid":null,"idfs":null,"optout":false,"sid":null,"lwid":"8ed75496-aeff-4c0b-a05b-db3924af7069","tld":"superperfumerias.com","origin":"onetag","version":"4_5_5"}:20)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-01-25T08:17:53.388Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+events.js:182
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read EIO
+    at exports._errnoException (util.js:1026:11)
+    at TTY.onread (net.js:607:25)
